@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="./index.css">
+	<script src="./index.js"></script>
+	<title>Doob</title>
+  </head>
+  <body>
+    <div id="sidebar">
+	  <span id="x" class="x">&#120;</span>
+	  <nav class="nav-vertical">
+	    <a class="nav-link text-primary" href="#">Home.</a>
+        <a class="nav-link text-primary" href="#">About us.</a>
+        <a class="nav-link text-primary" href="#">Portfolio.</a>
+        <a class="nav-link text-primary" href="#">Blog.</a>
+        <a class="nav-link text-primary" href="#">Contact us.</a>
+	  </nav>
+	</div>
+    <header class="header">
+      <div class="container">
+          <img alt="logo" class="header-logo" src="./images/logo.png">
+          <nav class="nav-horizontal text-primary">
+              <a class="nav-link" href="#">Home.</a>
+              <a class="nav-link" href="#">About us.</a>
+              <a class="nav-link" href="#">Portfolio.</a>
+              <a class="nav-link" href="#">Blog.</a>
+              <a class="nav-link" href="#">Contact us.</a>
+          </nav>
+          <div class="settings">
+            <select class="select text-primary" name="language">
+              <option value="en" selected>EN</option>
+              <option value="uk">UK</option>
+              <option value="ru">RU</option>
+            </select>
+            <button id="contact" class="btn shadow bg-white text-danger">Contact Us</button>
+          </div>
+          <img id="list" class="hamburger" alt="List" src="./images/list.svg">
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="main-logo">
+          <div class="main-logo-text">
+            <h1 class="text-primary">The Spirit Of Digital Agency</h1>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            <div class="sub-items">
+              <button class="btn bg-danger text-white">More About us</button>
+              <a class="nav-link" href="#">Get in Touch.</a>
+            </div>
+          </div>
+          <div id="slider" class="w3-display-container">
+            <img alt="Vector Illustration" class="bg-image" src="./images/Vector Illustration.png">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          <img id="mobile-img" alt="Vector Illustration" class="bg-image"  src="./images/Vector Illustration.png">
+        </section>
+      </div>
+      <section class="main-works text-primary">
+        <h2>See some of our creative work</h2>
+        <div class="works">
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+        </div>
+        <div class="text-center">
+          <a class="nav-link text-danger" href="#">See More of These.</a>
+        </div>
+      </section>
+      <section class="contact">
+        <a class="nav-link text-danger" href="#">CONTACT US</a>
+        <h4 class="text-primary">Get in Touch</h4>
+        <form class="contact-form">
+          <div class="form-row">
+           <div class="form-group">
+              <label class="form-label text-primary" for="email">Your email</label>
+              <br>
+              <input class="form-input" type="email" id="email" name="email" placeholder="jsmith@mail.net">
+            </div>
+            <div class="form-group">
+              <label class="form-label text-primary" for="subject">Subject</label>
+              <br>
+              <input class="form-input" type="text" id="subject" name="subject" placeholder="Business">
+            </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group">
+              <label class="form-label text-primary" for="message">Message</label>
+              <br>
+              <textarea class="textarea" id="message" name="message" rows="10" cols="15" maxlength="128"></textarea>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <button type="submit" class="btn bg-danger text-white">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer bg-primary">
+      <p class="text-white text-center">DOOB</p>
+      <h3 class="text-danger">CREATIVITY ABOVE</h3>
+	  <nav class="text-center">
+	    <a class="nav-link text-white " href="#">Home.</a>
+        <a class="nav-link text-white " href="#">About us.</a>
+        <a class="nav-link text-white " href="#">Portfolio.</a>
+        <a class="nav-link text-white " href="#">Blog.</a>
+        <a class="nav-link text-white " href="#">Contact us.</a>
+	  </nav>
+	  <p class="text-white text-center">&copy; 2019 - Doob, All Rights Reserved</p>
+	  <div class="social">
+	    <a class="nav-link" href="#"><img class="social-icon" alt="Facebook" src="./images/facebook.svg"></a>
+		<a class="nav-link" href="#"><img class="social-icon" alt="Twitter" src="./images/twitter.svg"></a>
+		<a class="nav-link" href="#"><img class="social-icon" alt="Dribble" src="./images/dribble.svg"></a>
+	  </div>
+    </footer>
+    </script>
+  </body>
+</html> 
